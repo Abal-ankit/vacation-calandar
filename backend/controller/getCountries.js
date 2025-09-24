@@ -10,7 +10,7 @@ const getCountries = async (req, res) => {
 
     } catch (error) {
         console.log(error);
-        res.send(error);
+        res.send("Error Happened");
     }
 }
 

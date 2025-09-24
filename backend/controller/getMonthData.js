@@ -16,7 +16,7 @@ const getMonthData = async (req, res) => {
         res.json(data);
     } catch (error) {
         console.log(error);
-        res.send("Error");
+        res.send("Error Happened!");
     }
 }
 
